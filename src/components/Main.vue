@@ -12,7 +12,7 @@ const count = ref(0)
   <h1>{{ msg }}</h1>
 
   <p>
-    WIP
+    <b>very cool</b>b
   </p>
 </template>
 
