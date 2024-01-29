@@ -25,6 +25,16 @@ const count = ref(0)
     height="432"
     width="768"
     />
+
+    <h1>my socials 📱</h1>
+      <p><b>discord: naymmmiscool_</b></p>
+      <p><b>twitter: @naymmm_</b></p>
+      <p><b>bluesky: @naym.bsky.social</b></p>
+      <p><b>youtube: @naymmm_</b></p>
+      <p><b>email: naymmm@murder.academy</b></p>
+
+    <h3>contact me through email or discord! i'm not active on twitter</h3>
+    <h3>i do texturing and rendering commissions! dm me on discord</h3>
 </template>
 
 <style scoped>
