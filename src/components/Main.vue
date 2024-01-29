@@ -12,7 +12,9 @@ const count = ref(0)
   <h1>{{ msg }}</h1>
 
   <p>
-    <b>i like seals and cats</b>b
+    <b>i like seals and cats 🦭</b>
+    <b>i'm a render artist, texturer, and coder!</b>
+    <b>kinda fluent in go, lua, vue, and etc</b>
   </p>
 </template>
 
