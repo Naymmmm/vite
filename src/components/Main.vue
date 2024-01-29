@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
-import image1 from "./images/cat.png"
+import image2 from "./images/cat.png"
+import image1 from "./images/silly.png"
 
 defineProps({
   msg: String,
@@ -10,6 +11,10 @@ const count = ref(0)
 </script>
 
 <template>
+  <img :src="image1" 
+    height="280"
+    width="280"
+    />
   <h1>{{ msg }}</h1>
 
   <p>
@@ -21,7 +26,7 @@ const count = ref(0)
     <b>kinda fluent in go, lua, vue, and etc</b>
 
     <h1> my works 🧑‍💻🖼️</h1>
-    <img :src="image1" 
+    <img :src="image2" 
     height="432"
     width="768"
     />
@@ -35,6 +40,8 @@ const count = ref(0)
 
     <h3>contact me through email or discord! i'm not active on twitter</h3>
     <h3>i do texturing and rendering commissions! dm me on discord</h3>
+    <a href="https://glock.rip/naymmm" target="_blank"
+      ><b>cooler bio</b></a>
 </template>
 
 <style scoped>
