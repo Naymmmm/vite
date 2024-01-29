@@ -13,9 +13,11 @@ const count = ref(0)
 
   <p>
     <b>i like seals and cats 🦭</b>
-    <b>i'm a render artist, texturer, and coder!</b>
-    <b>kinda fluent in go, lua, vue, and etc</b>
   </p>
+    <p>
+    <b>i'm a render artist, texturer, and coder!</b>
+    </p>
+    <b>kinda fluent in go, lua, vue, and etc</b>
 </template>
 
 <style scoped>
